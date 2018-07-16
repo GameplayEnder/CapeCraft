@@ -1,0 +1,185 @@
+[23:27:06] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[23:27:07] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[23:27:07] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[23:27:07] [main/INFO]: Forge Mod Loader version 14.23.4.2736 for Minecraft 1.12.2 loading
+[23:27:07] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_51, running on Windows 10:amd64:10.0, installed at C:\Users\petis\OneDrive\Dokumentumok\Curse\Minecraft\Install\runtime\jre-x64\1.8.0_51
+[23:27:07] [main/INFO]: Searching C:\Users\petis\OneDrive\Dokumentumok\Curse\Minecraft\Instances\CapeCraft\mods for mods
+[23:27:07] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in BetterFoliage-MC1.12-2.1.10.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[23:27:08] [main/WARN]: The coremod mods.betterfoliage.loader.BetterFoliageLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[23:27:08] [main/WARN]: The coremod BetterFoliageLoader (mods.betterfoliage.loader.BetterFoliageLoader) is not signed!
+[23:27:08] [main/INFO]: Loading tweaker guichaguri.betterfps.tweaker.BetterFpsTweaker from BetterFps-1.4.8.jar
+[23:27:08] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in foamfix-0.9.9.1-1.12.2-anarchy.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[23:27:08] [main/WARN]: The coremod pl.asie.foamfix.coremod.FoamFixCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[23:27:08] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:27:08] [main/INFO]: Loading tweak class name guichaguri.betterfps.tweaker.BetterFpsTweaker
+[23:27:08] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[23:27:08] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:27:08] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:27:08] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:27:16] [main/INFO]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[23:27:16] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[23:27:16] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:27:16] [main/INFO]: Calling tweak class guichaguri.betterfps.tweaker.BetterFpsTweaker
+[23:27:17] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[23:27:20] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:27:20] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:27:20] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[23:27:20] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[23:27:20] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[23:27:21] [main/INFO]: Patching net.minecraft.client.Minecraft... (bib)
+[23:27:22] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:110]: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[23:27:22] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:113]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[23:27:22] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:150]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[23:27:23] [main/INFO]: Found method net.minecraft.client.multiplayer.WorldClient.func_184153_a (IIIILjava/util/Random;ZLnet/minecraft/util/math/BlockPos$MutableBlockPos;)V (matching showBarrierParticles)
+[23:27:23] [main/INFO]: [BetterFoliageLoader] Applying random display tick call hook
+[23:27:23] [main/INFO]: Patching net.minecraft.client.entity.EntityPlayerSP... (bud)
+[23:27:25] [main/INFO]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:65]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
+[23:27:25] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:110]: net/minecraft/client/resources/IResourceManagerReloadListener
+[23:27:25] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.client.util.SearchTreeManager.func_110549_a
+[23:27:26] [main/INFO]: Setting user: GameplayEnder
+[23:27:27] [main/INFO]: Patching net.minecraft.block.Block... (aow)
+[23:27:28] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.state.BlockStateContainer.createState
+[23:27:28] [main/INFO]: Found method net.minecraft.block.state.BlockStateContainer$StateImplementation.func_185892_j ()F (matching getAmbientOcclusionLightValue)
+[23:27:28] [main/INFO]: [BetterFoliageLoader] Applying getAmbientOcclusionLightValue() override
+[23:27:28] [main/INFO]: Found method net.minecraft.block.state.BlockStateContainer$StateImplementation.func_185916_f ()Z (matching useNeighborBrightness)
+[23:27:28] [main/INFO]: [BetterFoliageLoader] Applying useNeighborBrightness() override
+[23:27:28] [main/INFO]: Found method net.minecraft.block.state.BlockStateContainer$StateImplementation.doesSideBlockRendering (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z
+[23:27:28] [main/INFO]: [BetterFoliageLoader] Applying doesSideBlockRendering() override
+[23:27:28] [main/INFO]: Found method net.minecraft.block.state.BlockStateContainer$StateImplementation.func_185914_p ()Z (matching isOpaqueCube)
+[23:27:28] [main/INFO]: [BetterFoliageLoader] Applying isOpaqueCube() override
+[23:27:28] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.equals
+[23:27:28] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.hashCode
+[23:27:28] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:173]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode
+[23:27:28] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:173]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode_calced
+[23:27:28] [main/INFO]: Patching math utils with "RIVENS_HALF" algorithm
+[23:27:29] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.equals
+[23:27:29] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.hashCode
+[23:27:29] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.properties.PropertyInteger.hashCode
+[23:27:29] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:173]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode
+[23:27:29] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:173]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode_calced
+[23:27:30] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
+[23:27:30] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.BlockBed.func_189540_a
+[23:27:31] [main/INFO]: Patching net.minecraft.tileentity.TileEntityBeacon... (avh)
+[23:27:31] [main/INFO]: Patching net.minecraft.block.BlockHopper... (arl)
+[23:27:31] [main/INFO]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:75]: Replaced NEW for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[23:27:31] [main/INFO]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:87]: Replaced INVOKESPECIAL for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[23:27:31] [main/INFO]: Patching net.minecraft.tileentity.TileEntityHopper... (avw)
+[23:27:37] [main/INFO]: LWJGL Version: 2.9.4
+[23:27:37] [BetterFps Update Checker/WARN]: Could not check for updates: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 2 column 2 path $
+[23:27:41] [main/INFO]: Could not load splash.properties, will create a default one
+[23:27:41] [main/INFO]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 716212608 bytes (683 MB) / 875036672 bytes (834 MB) up to 3102212096 bytes (2958 MB)
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx3328m -Xms256m -XX:PermSize=256m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+Do not report to Forge! Remove FoamFixAPI (or replace with FoamFixAPI-Lawful) and try again. (foamfix-0.9.9.1-1.12.2-anarchy.jar)
+  pl.asie.foamfix.coremod.FoamFixTransformer
+BetterFoliageLoader (BetterFoliage-MC1.12-2.1.10.jar)
+  mods.betterfoliage.loader.BetterFoliageTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 388.13' Renderer: 'GeForce GT 710/PCIe/SSE2'
+[23:27:42] [main/INFO]: MinecraftForge v14.23.4.2736 Initialized
+[23:27:42] [main/INFO]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[23:27:42] [main/INFO]: Replaced 1036 ore ingredients
+[23:27:43] [main/INFO]: Searching C:\Users\petis\OneDrive\Dokumentumok\Curse\Minecraft\Instances\CapeCraft\mods for mods
+[23:27:45] [main/WARN]: Mod betterfoliage is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.1.10
+[23:27:45] [main/WARN]: Mod fbp is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.4.0
+[23:27:45] [main/INFO]: Forge Mod Loader has identified 9 mods to load
+[23:27:46] [main/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, foamfixcore, betterfoliage, fbp, foamfix, jei] at CLIENT
+[23:27:46] [main/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, foamfixcore, betterfoliage, fbp, foamfix, jei] at SERVER
+[23:27:47] [main/INFO]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:75]: Replaced NEW for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[23:27:47] [main/INFO]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:87]: Replaced INVOKESPECIAL for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[23:27:47] [main/INFO]: Found method net.minecraftforge.client.model.ModelLoader.func_177570_a ()Lnet/minecraft/util/registry/IRegistry; (matching setupModelRegistry)
+[23:27:47] [main/INFO]: [BetterFoliageLoader] Applying ModelLoader lifecycle callback
+[23:27:47] [main/INFO]: Reloading ResourceManager: BetterFps, Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better Foliage, FMLFileResourcePack:Fancy Block Particles, FMLFileResourcePack:FoamFix, FMLFileResourcePack:Just Enough Items, Better Foliage generated
+[23:27:48] [main/INFO]: Processing ObjectHolder annotations
+[23:27:48] [main/INFO]: Found 1169 ObjectHolder annotations
+[23:27:48] [main/INFO]: Identifying ItemStackHolder annotations
+[23:27:48] [main/INFO]: Found 0 ItemStackHolder annotations
+[23:27:48] [main/INFO]: Configured a dormant chunk cache size of 0
+[23:27:48] [Thread-3/INFO]: Using alternative sync timing : 200 frames of Display.update took 3241873153 nanos
+[23:27:48] [Forge Version Check/INFO]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[23:27:48] [Forge Version Check/INFO]: [forge] Found status: OUTDATED Target: 14.23.4.2738
+[23:27:49] [main/INFO]: [pl.asie.foamfix.coremod.patches.ReturnIfBooleanTruePatch:apply:91]: Added return if option true in net/minecraft/client/renderer/texture/TextureMap func_94248_c
+[23:27:50] [main/INFO]: [BetterFoliage] Optifine CTM support is disabled
+[23:27:50] [main/INFO]: [BetterFoliage] Optifine custom color support is disabled
+[23:27:50] [main/INFO]: [BetterFoliage] BetterFoliage initialized
+[23:27:50] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraftforge.common.property.ExtendedBlockState.createState
+[23:27:50] [main/INFO]: [pl.asie.foamfix.ProxyCommon:preInit:83]: minecraft:hopper
+[23:27:50] [main/INFO]: Removing LaunchWrapper package manifest map...
+[23:27:50] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraftforge.client.model.ItemLayerModel.bake
+[23:27:50] [main/WARN]: Fast animated textures currently only seem to boost performance on AMD cards. Using original slow path.
+[23:27:51] [main/INFO]: Applying holder lookups
+[23:27:51] [main/INFO]: Holder lookups applied
+[23:27:51] [main/INFO]: Applying holder lookups
+[23:27:51] [main/INFO]: Holder lookups applied
+[23:27:51] [main/INFO]: Applying holder lookups
+[23:27:51] [main/INFO]: Holder lookups applied
+[23:27:51] [main/INFO]: Applying holder lookups
+[23:27:51] [main/INFO]: Holder lookups applied
+[23:27:51] [main/INFO]: Injecting itemstacks
+[23:27:51] [main/INFO]: Itemstack injection complete
+[23:28:28] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:28:29] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[23:28:29] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:28:29] [Thread-5/INFO]: OpenAL initialized.
+[23:28:29] [Sound Library Loader/INFO]: Sound engine started
+[23:28:30] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraftforge.client.model.ModelLoader$VanillaModelWrapper.bakeNormal
+[23:28:44] [main/INFO]: [BetterFoliage] Registered 5 grass textures
+[23:28:44] [main/INFO]: [BetterFoliage] Registered 2 snowed grass textures
+[23:28:44] [main/INFO]: [BetterFoliage] Registered 4 mycelium textures
+[23:28:44] [main/INFO]: [BetterFoliage] Registered 2 cactus arm textures
+[23:28:44] [main/INFO]: [BetterFoliage] Registered 3 lilypad root textures
+[23:28:44] [main/INFO]: [BetterFoliage] Registered 2 lilypad flower textures
+[23:28:44] [main/INFO]: [BetterFoliage] Registered 4 reed textures
+[23:28:44] [main/INFO]: [BetterFoliage] Registered 4 algae textures
+[23:28:44] [main/INFO]: [BetterFoliage] Registered 6 coral textures
+[23:28:44] [main/INFO]: [BetterFoliage] Registered 4 coral crust textures
+[23:28:44] [main/INFO]: [BetterFoliage] Registered 3 netherrack textures
+[23:28:44] [main/INFO]: [BetterFoliage] Registered 2 soul particle textures
+[23:28:45] [main/INFO]: Max texture size: 16384
+[23:28:56] [main/INFO]: Created: 1024x512 textures-atlas
+[23:28:57] [main/INFO]: Clearing ModelLoaderRegistry cache (4226 items)...
+[23:28:57] [main/INFO]: Cleared 4221 objects.
+[23:28:57] [main/INFO]: Deduplicating models...
+[23:28:57] [main/INFO]: Deduplicating models...
+[23:28:58] [main/INFO]: Deduplicated 16391 (+ 22323) objects.
+[23:28:59] [main/INFO]: Patching net.minecraft.client.renderer.EntityRenderer... (buq)
+[23:29:00] [main/INFO]: JEI search tree manager injection complete!
+[23:29:01] [main/INFO]: Applying holder lookups
+[23:29:01] [main/INFO]: Holder lookups applied
+[23:29:01] [main/INFO]: Deduplicated 99 property sets.
+[23:29:01] [main/INFO]: Weakening LaunchWrapper resource cache...
+[23:29:01] [main/INFO]: Registered client-side world unload notifier!
+[23:29:01] [main/INFO]: Cleaning up ModelLoader...
+[23:29:01] [main/INFO]: Injecting itemstacks
+[23:29:01] [main/INFO]: Itemstack injection complete
+[23:29:01] [main/INFO]: Starting JEI...
+[23:29:02] [main/INFO]: Registering recipe categories...
+[23:29:02] [main/INFO]: Registering recipe categories took 117.4 ms
+[23:29:02] [main/INFO]: Registering mod plugins...
+[23:29:03] [main/INFO]: Registering mod plugins took 514.2 ms
+[23:29:03] [main/INFO]: Building recipe registry...
+[23:29:03] [main/INFO]: Building recipe registry took 400.5 ms
+[23:29:03] [main/INFO]: Building ingredient list...
+[23:29:03] [main/INFO]: Building ingredient list took 462.3 ms
+[23:29:03] [main/INFO]: Building ingredient filter...
+[23:29:04] [main/INFO]: Building ingredient filter took 685.6 ms
+[23:29:04] [main/INFO]: Building runtime...
+[23:29:04] [main/INFO]: Building runtime took 256.9 ms
+[23:29:04] [main/INFO]: Starting JEI took 3.015 s
+[23:29:05] [main/INFO]: JEI search tree manager injection complete!
+[23:29:05] [main/INFO]: Forge Mod Loader has successfully loaded 9 mods
+[23:29:05] [main/INFO]: Narrator library for x64 successfully loaded
+[23:29:05] [main/INFO]: Patching net.minecraft.client.gui.GuiOptions... (ble)
+[23:29:08] [main/INFO]: Found method net.minecraft.client.renderer.chunk.RenderChunk.func_178581_b (FFFLnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;)V (matching rebuildChunk)
+[23:29:08] [main/INFO]: [BetterFoliageLoader] Applying RenderChunk block render override
+[23:29:08] [main/INFO]: [BetterFoliageLoader] Applying RenderChunk block layer override
+[23:30:02] [main/INFO]: Stopping!
+[23:30:02] [main/INFO]: SoundSystem shutting down...
+[23:30:02] [main/WARN]: Author: Paul Lamb, www.paulscode.com
